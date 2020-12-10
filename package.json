@@ -1,0 +1,31 @@
+{
+  "name": "nevillar-official-website-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "build": "NODE_ENV=production babel-node app.js",
+    "start": "nodemon --exec babel-node app.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "latest",
+    "cookie-parser": "^1.4.5",
+    "express": "^4.17.1",
+    "link-module-alias": "^1.2.0",
+    "module-alias": "^2.2.2",
+    "mongodb": "^3.6.3",
+    "pg": "^7.18.2",
+    "sequelize": "^5.22.3"
+  },
+  "_moduleAliases": {
+    "@src": "src"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/node": "^7.12.10",
+    "@babel/preset-env": "^7.12.10",
+    "@hapi/joi": "^17.1.1",
+    "mongoose": "^5.11.6"
+  }
+}
